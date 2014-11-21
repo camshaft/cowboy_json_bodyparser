@@ -1,0 +1,11 @@
+{application, cowboy_json_bodyparser, [
+  {description, "json body parser for cowboy"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
